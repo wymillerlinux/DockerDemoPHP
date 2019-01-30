@@ -1,0 +1,24 @@
+// Sass file for Docker/PHP demo
+// Written by Wyatt J. Miller
+
+@import url();
+
+$font-stack: Helvetica, sans-serif;
+$blue: lightblue;
+$red: coral;
+
+@mixin box-sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: $red;
+}
+
+h1{
+    font-size: 64px;
+    color: $blue;
+    font: $font-stack;
+}
