@@ -19,6 +19,7 @@ If you get a permission denied error, add your user to the Docker group.<br>
 `sudo usermod -aG docker wyatt`<br>
 Replace `wyatt` with your user.<br>
 
+## Running
 Finally, run your image with port 80 exposed.<br>
 `docker run -p 80:80 demo01`<br>
 
