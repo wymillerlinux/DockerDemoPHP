@@ -4,7 +4,6 @@ Written by Wyatt J.. Miller
 -->
 
 <?php
-
     echo "Oh wow, I'm a PHP image running inside a Docker container! WOO!"
 ?>
 
