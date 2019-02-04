@@ -4,9 +4,12 @@
 # This command retrives the PHP Docker image from a centralized repsistory
 FROM php:7.0-apache
 
+# This command set the working directory inside the Docker image
+WORKDIR /var/www/html
+
 # This command copies this directory to a directory inside the Docker image
 # In this case, it's going to /var/www/html, the default web hosting directory
-COPY . /var/www/html
+COPY . .
 
 # Testing
 RUN bash -c 'apt-get update && apt-get install -y ruby ruby-dev && gem install sass'

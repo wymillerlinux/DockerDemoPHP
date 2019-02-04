@@ -5,7 +5,7 @@ Written by Wyatt J.. Miller
 
 <?php
 
-    print("Oh wow, I'm a PHP image running inside a Docker container! WOO!")
+    echo "Oh wow, I'm a PHP image running inside a Docker container! WOO!"
 ?>
 
 <!DOCTYPE html>
